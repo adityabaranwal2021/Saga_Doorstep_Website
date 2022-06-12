@@ -1,0 +1,22 @@
+body{
+    background-color: blue;
+}
+.loren{
+    width:50em;
+    /* background-color: cornflowerblue;
+    cursor: pointer; */
+
+}
+.loren:hover{
+    background-color: bisque;
+}
+
+.loren >pre{
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.loren>pre:hover{
+    color:red;
+    font-size: 1em;
+}
