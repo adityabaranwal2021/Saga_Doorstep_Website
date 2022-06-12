@@ -58,4 +58,48 @@ header form input[type="submit"]{
     font-weight: bold;
     margin-top: 25%;
     cursor: pointer;
+    /* justify-content: ; */
+}
+body ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+#con{
+    font-size: 24px;
+    font-weight:bold ;
+    color:#133783;
+    padding-top: 3%;
+
+}
+#email{
+    width: 300px;
+    margin: 5px;
+    height:25px;
+}
+#password{
+    width: 300px;
+    margin: 5px;
+    height:25px;
+}
+.name{
+    width: 140px;
+    margin: 5px;
+    height:25px;
+}
+#dob{
+    
+    margin: 5px;
+    height:25px;
+}
+#sign{
+    background-color: #4267b2;
+    border: 1px solid #08298a;
+    color:white;
+    height: 24px;
+    font-weight: bold;
+    margin-top: 0.5%;
+    cursor: pointer;
 }
